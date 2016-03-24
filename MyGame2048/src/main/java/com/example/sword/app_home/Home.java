@@ -61,7 +61,9 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
         tv_home_target.setText(application.getTarget()+"");
         tv_home_record.setText(application.getHighestRecord()+"");
 
-         Log.i("Tag", application.geti()+"");
+         Log.i("Tag", application.geti() + "");
+        //Test
+        Log.i(this.toString(),"1,2,3,Test");
     }
 
 
