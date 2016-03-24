@@ -19,6 +19,7 @@ public class NumberItem extends FrameLayout {
     public NumberItem(Context context) {
         super(context);
         initView(0);
+
     }
 
     public NumberItem(Context context, AttributeSet attrs) {
